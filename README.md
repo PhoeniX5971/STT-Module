@@ -25,9 +25,32 @@ The module operates in three distinct stages:
 
 ## 🚀 Installation
 
+### Recommended
+
+```
+git clone https://github.com/PhoeniX5971/STT-Module.git
+
+cd STT-Module
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+python main.py
+```
+
+Assuming you will be using:
+
+1. Git CLI
+2. Bash
+3. Basic python virtual environment
+
+> Below is the Manual Instructions, not recommended.
+
 ### 1. System Requirements
 
-- **OS:** Linux (Ubuntu/Arch preferred)
+- **OS:** Linux
 - **Hardware:** NVIDIA GPU (RTX 5070/Blackwell tested)
 - **Audio:** ALSA, PulseAudio, or PipeWire
 
